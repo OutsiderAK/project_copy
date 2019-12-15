@@ -1,14 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
-import sys
 
 
 class WebScraperC:
     # tag --------- ticker  ---   total_price ------ stock_time ------- scrape_time ------- time_delta
 
     def __init__(self, tag):
-        self.body = self.get_body_page(tag)
+        self.body = self.get_body_page(tag)[0]
+        if self.get_body_page(tag)[1] == 1:
+            raise Exception
         self.name = tag
         self.ticker = self.get_ticker()
         self.price = self.get_price()
@@ -18,19 +19,16 @@ class WebScraperC:
         self.scrape_time = self.get_scrape_time()
         self.delta_time = self.get_time_delta()
 
-    def __str__(self):
-        return f"{self.ticker}  {self.price}  {self.real_date} {self.real_time}  {self.scrape_date} {self.scrape_time}"
-
     @staticmethod
     def get_body_page(tag):
         url = 'https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=' + str(tag)
         headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0'}
         page = requests.get(url, headers=headers)
+        error = 0
         if page.status_code == 404:
-            print("NO COMPANY FOUND")
-            sys.exit(1)
+            error = 1
         soup = BeautifulSoup(page.content, 'html.parser')
-        return soup
+        return soup, error
 
     def get_ticker(self):
         ticker = self.body.find('span', {'class': 'profilTicker'}).get_text()
@@ -80,5 +78,10 @@ class WebScraperC:
                str(self.delta_time)
 
 
-stock = WebScraperC("ENEA")
-print(stock.return_tuple())
+while True:
+    try:
+        companyName = str(input())
+        stock = WebScraperC(companyName)
+        print(stock.return_tuple())
+    except Exception as e:
+        print('No company found')

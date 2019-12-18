@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "projektgieldowy",
+  "private_key_id": "678e0f1a27c6c9db2b74e701a5dd6d200823a15d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1TKvnh4cPd51W\n3k6Ohkx8TEX/byImLvsf1prmRrfcNyY6w7PPN9qFKzY+HBVZpUxJwnF2Ee5QuGmE\n8JOcH5b26nO+9E9xVYhSHZakYDiuuIdGmlCTkx2ReL05Az9vLLJNzyGIkBNALSle\npNXAOhJQlL+/OQqbscqyCKmeu2WxCUu4jZyjh7R7HpjOcPMjWgEmsV5cYodl8RnU\nek9ZeHLCq3hvi4GUKhQ3XQ70DQnN7jCPnfXreQ5UrJcGQubganmrAdHdfHBSoloY\nD+5XSOLVvkiSPDTQq0ZW3yF0d4h742yE1mezCTBmzHvc4yhuhajRiLltw7m4PUJC\nReoSgs6tAgMBAAECggEABzPGCnsYUvV6AybusPvF0xRGnZihHyozoLaqTaaWjEGG\nm8QFgyBhZnPqgjokYPzPlIiMcFfTA1LoIjdabdPVb/atZXMYKtTuhvCU+O+3oL1E\n5nmf5NTt0kcdIUQvQ2/fn3awitfKY/zHTXK36RyFeL0IBwUxljDQcBUnA97G8eru\n4PGH0FdJmjLRaQ2LXqLPO1M0aJeB8G14ArhhKYK2pAhAB05jXG7+hUn02oofoNtG\nNadGLkVOGfJBgrQ8M1k899+qBlog5DjmcN87xrt9JHx6lhGsWm2AohLFNOUEkSoV\nKt8qhNkrwNsoa8Wuo+Z8P9FVfNvE3kYtbp2Upu8cgQKBgQDy/BgeW7qjGldudu8K\nGIFR4o5pkho4lvtQglnLZg0ZxMwgu4AiSBYaj669C4BifFVWNcXB8GQpDUh9Eyzm\ntv+rUOJIF0TL9f6uTLQoVClRU84VDrSWIh44E0Dbg/CPAetO85rnAF1wzN0VT4R3\nPmxajUYVZT4v72FFuyK1DGSvQQKBgQC/ArldQSdjiI9aVtLXxJKWxNsN+4EjmWE3\nlBFJNcEskmjNASSHL+vDWXZbTJoChWCA+hLS08BYWTPgCaDZzh/lsbiyIwZngsMr\nZhyIgrp/kKBmZPkZb5XZpowBb+P/aE3smpcO1NJVKEZ+NQ9l9TyKwimilq4sz2TK\njD/YAMgwbQKBgE41QfYThEEXK2kMsufG92jJyRjFw9bPEdjZ+9jx4emXZDRs5VMj\nbKnj8VQ7rXkFl9oFuL8xhquH8PsA/wTLhgM4J30YsDYN2Yl0etA4NoxMsxon/4wL\nMzrNR6TgFL+S2JAy7HrJrUmvRsGjNHnFB88lhZdBXQDExcRR9Vvcv1OBAoGADCpS\nP/w8U/yIlMpe11svsuaKxRM1oFzOckm96BnCWeJhRl1CRFHrBCAYh6wTSwHPqadD\nt6XA5F+aDDTQx852/ZwaFU5hxAnyADuaqZ8Z3bIKZTsdGl+e/aO72wOTU9sCy4T1\nBf7L/px4EOW0O1wpJPVEzZQnN7dlxfi0wD8cgOkCgYEAzvP6ePH8FhLk6FPhYDdV\nFo/lpleKZdrmx2RpUHT2T/NxC3UUey8BeNTENN/bYn86/5Vjy+2HCkaqT+tW/F4L\nMi9Cw+WDMFbgIrf9hAnUyqRM5TrQIdACrwXasZMdoVElvdDhoMwuKqXZZGi0NaGx\nQwgGBkjI9GHiSI3xAcDaqSw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "projektgieldowy@appspot.gserviceaccount.com",
+  "client_id": "114750993935470977521",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/projektgieldowy%40appspot.gserviceaccount.com"
+}

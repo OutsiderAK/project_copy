@@ -77,7 +77,7 @@ class WebScraperC:
         return self.name, self.ticker, self.price, self.real_date, self.real_time, self.scrape_date, self.scrape_time, \
                str(self.delta_time)
 
-
+"""
 while True:
     try:
         companyName = str(input())
@@ -85,3 +85,4 @@ while True:
         print(stock.return_tuple())
     except Exception as e:
         print('No company found')
+"""
